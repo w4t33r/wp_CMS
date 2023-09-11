@@ -66,7 +66,7 @@
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-img-icon">
-                            <img src=".\wp-content\themes\wp_CMS\images\icon\gymicon.png" alt="service-icon" class="img-fluid"/>
+                            <img src="/wp-content/themes/gym_cms_group7/images/icon/gymicon.png" alt="service-icon" class="img-fluid"/>
                         </div>
                         <div class="service-inner">
                             <h4>Weight Training</h4>
@@ -79,7 +79,7 @@
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-img-icon">
-                            <img src=".\wp-content\themes\wp_CMS\images\icon\gymicon2.png" alt="service-icon" class="img-fluid"/>
+                            <img src="wp-content/themes/gym_cms_group7/images/icon/gymicon2.png" alt="service-icon" class="img-fluid"/>
                         </div>
                         <div class="service-inner">
                             <h4>Fitness Training</h4>
@@ -92,7 +92,7 @@
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-img-icon">
-                            <img src=".\wp-content\themes\wp_CMS\images\icon\gymicon3.png" alt="service-icon" class="img-fluid"/>
+                            <img src="wp-content/themes/gym_cms_group7/images/icon/gymicon3.png" alt="service-icon" class="img-fluid"/>
                         </div>
                         <div class="service-inner">
                             <h4>Group Training</h4>
@@ -132,7 +132,7 @@
                                         <div class="testimonial-content style-2">
                                             <div class="author-info">
                                                 <div class="author-img">
-                                                    <img src=".\wp-content\themes\barb_group7\images\author\3b.jpg" alt="" class="img-fluid"/>
+                                                    <img src="wp-content/themes/gym_cms_group7/images/author/3b.jpg" alt="" class="img-fluid"/>
                                                 </div>
                                             </div>
 
@@ -154,7 +154,7 @@
                                         <div class="testimonial-content style-2">
                                             <div class="author-info">
                                                 <div class="author-img">
-                                                    <img src="./wp-content/themes/barb_group7/images/author/5b.jpg" alt="" class="img-fluid"/>
+                                                    <img src="wp-content/themes/gym_cms_group7/images/author/4b.jpg" alt="" class="img-fluid"/>
                                                 </div>
                                             </div>
 
@@ -177,7 +177,7 @@
                                         <div class="testimonial-content style-2">
                                             <div class="author-info">
                                                 <div class="author-img">
-                                                    <img src="./wp-content/themes/barb_group7/images/author/4b.jpg" alt="" class="img-fluid"/>
+                                                    <img src="wp-content/themes/gym_cms_group7/images/author/5b.jpg" alt="" class="img-fluid"/>
                                                 </div>
                                             </div>
 
