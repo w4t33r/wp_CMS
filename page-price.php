@@ -3,14 +3,14 @@
 
     <!--MAIN HEADER AREA END -->
     <!--MAIN BANNER AREA START -->
-    <div class="page-banner-area page-contact" id="page-banner">
+    <div class="page-banner-area-2 page-contact" id="page-banner">
         <div class="overlay dark-overlay"></div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
                     <div class="banner-content content-padding">
-                        <h1 class="text-white">Old School Barbershop</h1>
-                        <p>- The Barbershop That Will Bring You Good Service And A Great Haircut -</p>
+                        <h1 class="text-white">Membership</h1>
+                        <p>- Join us and improve your health -</p>
                     </div>
                 </div>
             </div>
@@ -23,8 +23,7 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-12 m-auto">
                     <div class="section-heading">
-                        <h4 class="section-title">Prices</h4>
-                        <p>Prices for our services</p>
+                        <h4 class="section-title">Membership Prices</h4>
                     </div>
                 </div>
             </div>
@@ -32,10 +31,9 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="pricing-block">
                         <div class="price-header">
-                            <i class="icofont-business-man-alt-2"></i>
-
-                            <h4 class="price">300<small>SEK</small></h4>
-                            <h5>Haircut</h5>
+                            <i class="icofont-gym-alt-1"></i>
+                            <h2>One Day Pass</h2>
+                            <h4 class="price">80<small>SEK</small></h4>
                             
                         </div>
                         <div class="line"></div>
@@ -44,10 +42,9 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="pricing-block">
                         <div class="price-header">
-                            <i class="icofont-mustache"></i>
-
-                            <h4 class="price">200<small>SEK</small></h4>
-                            <h5>Beard & Mustach</h5>
+                            <i class="icofont-gym-alt-2"></i>
+                            <h2>Monthly Pass</h2>
+                            <h4 class="price">400<small>SEK</small></h4>
                         </div>
                         <div class="line"></div>
                     </div>
@@ -55,10 +52,9 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="pricing-block">
                         <div class="price-header">
-                            <i class="icofont-kid"></i>
-
-                            <h4 class="price">150<small>SEK</small></h4>
-                            <h5>Kids Haircut</h5>
+                            <i class="icofont-gym-alt-3"></i>
+                            <h2>1 Year Pass</h2>
+                            <h4 class="price">4 200<small>SEK</small></h4>
                         </div>
                         <div class="line"></div>
                     </div>
@@ -73,7 +69,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <div class="mb-5">
-                        <h3 class="mb-2">Customer Feedback</h3>
+                        <h3 class="mb-2">Members Feedback</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +96,7 @@
 
                                             <p>
                                                 <i class="icofont icofont-quote-left"></i>
-                                                I enjoyed the customer service and also loved the haircut! <i
+                                                Very good space for training and friendly staff! <i
                                                         class="icofont icofont-quote-right"></i>
                                             </p>
                                             <div class="author-text">
@@ -121,7 +117,7 @@
                                             </div>
 
                                             <p>
-                                                <i class="icofont icofont-quote-left"></i>  It was time for a clean shave and the barbers really did a great job. <i
+                                                <i class="icofont icofont-quote-left"></i>  Good amount of machines and free weights. <i
                                                         class="icofont icofont-quote-right"></i>
                                             </p>
                                             <div class="author-text">
@@ -144,7 +140,7 @@
                                             </div>
 
                                             <p>
-                                                <i class="icofont icofont-quote-left"></i>The kids needed haircuts and this place did a great job att giving them a good haircut and keeping them calm <i
+                                                <i class="icofont icofont-quote-left"></i>Nice group training, which helps me as a beginner. <i
                                                         class="icofont icofont-quote-right"></i>
                                             </p>
                                             <div class="author-text">

@@ -8,12 +8,12 @@
                     <div class="row">
                         <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
                             <div class="banner-content content-padding">
-                                <h1 class="banner-title">Old School Barbershop</h1>
+                                <h1 class="banner-title">Nackademin - GYM</h1>
                                 <p>
-                                    - The Barbershop That Will Bring You Good Service And A Great Haircut - 
+                                    - Welcome to workout - 
                                 </p>
 
-                                <a href="http://localhost/wordpress-cms/price/" class="btn btn-white btn-circled">Check Price</a>
+                                <a href="http://localhost/wordpress-cms/price/" class="btn btn-white btn-circled">Join</a>
                             </div>
                         </div>
                     </div>
@@ -31,20 +31,13 @@
             <div class="row">
                 <div class="col-lg-7 col-sm-12 col-md-8">
                     <div class="about-content">
-                        <h3>What to expect at the Old School Barbershop?</h3>
+                        <h3>Start your health journey today!</h3>
                         <p>
-                            At the Old School Barbershop can you expect a fresh and calm environment where you can enjoy the peace while getting a nice haircut.
-                            If you are a man with a long bear don't let your beard grow and look gloomy instead come to us and we will make sure that all your goals and wishes for your beard are met.
-                            And of course if you want a haircut for your child, just swing by and we'll take care of it.
+                        There are many reasons to exercise. We think that exercise should be enjoyable, so having fun is a good reason to exercise. 
+                        You get more energy. You get a nicer feeling in your body.
+                        <br>
+                        If you're going to want to exercise all your life, it has to be fun, so our training touches and challenges both the body and the senses. We are more in the experience business than in the health business.
                         </p>
-
-                        <ul class="about-list">
-                            <li><i class="icofont icofont-check-circled"></i> Good Service</li>
-                            <li><i class="icofont icofont-check-circled"> </i> Clean Equipment</li>
-                            <li><i class="icofont icofont-check-circled"> </i> Reasonable Prices</li>
-                            <li><i class="icofont icofont-check-circled"> </i> Relaxing Environment</li>
-                            <li><i class="icofont icofont-check-circled"> </i> Happy Customers</li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -58,10 +51,7 @@
             <div class="row">
                 <div class="col-lg-12 col-sm-12 m-auto">
                     <div class="section-heading text-white">
-                        <h4 class="section-title">Services We Provide</h4>
-                        <p>
-                            Here are all the services that we provide in detailed
-                        </p>
+                        <h4 class="section-title">Choose a exercise that suits you</h4>
                     </div>
                 </div>
             </div>
@@ -76,12 +66,12 @@
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-img-icon">
-                            <img src="./wp-content/themes/barb_group7/images/icon/haircut.png" alt="service-icon" class="img-fluid"/>
+                            <img src=".\wp-content\themes\wp_CMS\images\icon\gymicon.png" alt="service-icon" class="img-fluid"/>
                         </div>
                         <div class="service-inner">
-                            <h4>Haircut</h4>
+                            <h4>Weight Training</h4>
                             <p>
-                            We will cut any hairstyle you want to your pleasing without any change to the price. 
+                            This could be weight machines or free weights, like dumbbells or barbells. It stresses and strengthens your muscles over time.
                             </p>
                         </div>
                     </div>
@@ -89,12 +79,12 @@
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-img-icon">
-                            <img src="./wp-content/themes/barb_group7/images/icon/mustache.png" alt="service-icon" class="img-fluid"/>
+                            <img src=".\wp-content\themes\wp_CMS\images\icon\gymicon2.png" alt="service-icon" class="img-fluid"/>
                         </div>
                         <div class="service-inner">
-                            <h4>Beard & Mustach</h4>
+                            <h4>Fitness Training</h4>
                             <p>
-                                Any types of beard and mustach cut you can think of regardless of length.
+                            Improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities.
                             </p>
                         </div>
                     </div>
@@ -102,12 +92,12 @@
                 <div class="col-lg-4 col-sm-6 col-md-6">
                     <div class="service-box">
                         <div class="service-img-icon">
-                            <img src="./wp-content/themes/barb_group7/images/icon/haircut2.png" alt="service-icon" class="img-fluid"/>
+                            <img src=".\wp-content\themes\wp_CMS\images\icon\gymicon3.png" alt="service-icon" class="img-fluid"/>
                         </div>
                         <div class="service-inner">
-                            <h4>Kids Haircut</h4>
+                            <h4>Group Training</h4>
                             <p>
-                                We provide haircuts for any hairstyle on kids up to 10 years old. 
+                            Motivation improves because group workouts are often filled with encouragement. Group workouts helps coaches get the best out of members and enables members to create a foundation for more advanced training.
                             </p>
                         </div>
                     </div>
@@ -121,7 +111,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <div class="mb-5">
-                        <h3 class="mb-2">Customer Feedback</h3>
+                        <h3 class="mb-2">Members Feedback</h3>
                     </div>
                 </div>
             </div>
@@ -148,7 +138,7 @@
 
                                             <p>
                                                 <i class="icofont icofont-quote-left"></i>
-                                                I enjoyed the customer service and also loved the haircut! <i
+                                                Very good space for training and friendly staff! <i
                                                         class="icofont icofont-quote-right"></i>
                                             </p>
                                             <div class="author-text">
@@ -169,7 +159,7 @@
                                             </div>
 
                                             <p>
-                                                <i class="icofont icofont-quote-left"></i>  It was time for a clean shave and the barbers really did a great job. <i
+                                                <i class="icofont icofont-quote-left"></i>  Good amount of machines and free weights. <i
                                                         class="icofont icofont-quote-right"></i>
                                             </p>
                                             <div class="author-text">
@@ -192,7 +182,7 @@
                                             </div>
 
                                             <p>
-                                                <i class="icofont icofont-quote-left"></i>The kids needed haircuts and this place did a great job att giving them a good haircut and keeping them calm <i
+                                                <i class="icofont icofont-quote-left"></i>Nice group training, which helps me as a beginner. <i
                                                         class="icofont icofont-quote-right"></i>
                                             </p>
                                             <div class="author-text">

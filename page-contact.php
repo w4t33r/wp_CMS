@@ -7,8 +7,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
                 <div class="banner-content content-padding">
-                <h1 class="text-white">Old School Barbershop</h1>
-                        <p>- The Barbershop That Will Bring You Good Service And A Great Haircut -</p>
+                <h1 class="text-white">Send Feedback & Contact Us</h1>
                 </div>
             </div>
         </div>
@@ -21,7 +20,6 @@
         <div class="row">
             <div class="col-lg-6 col-sm-12 col-md-12">
                 <div class="mb-5">
-                    <h2 class="mb-2">Send Feedback & Contact Us</h2>
                 </div>
             </div>
         </div>

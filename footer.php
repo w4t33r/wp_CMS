@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-lg-5 col-sm-8 col-md-8">
                 <div class="footer-widget footer-link">
-                    <h4>Old School Barbershop</h4>
+                    <h4>Nackademin - GYM</h4>
                     <p>
-                        Your favorit place to be!
+                        Take care of your health
                     </p>
                 </div>
             </div>
@@ -15,7 +15,7 @@
                     <h4>Info</h4>
                     <ul>
                         <li><a href="http://localhost/wordpress-cms/contact/">Send Feedback</a></li>
-                        <li><a href="http://localhost/wordpress-cms/price/">Haircut Prices</a></li>
+                        <li><a href="http://localhost/wordpress-cms/price/">Membership Prices</a></li>
                         <li><a href="http://localhost/wordpress-cms/about-us/">About Us</a></li>
                     </ul>
                 </div>

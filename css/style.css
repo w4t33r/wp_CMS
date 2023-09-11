@@ -160,6 +160,14 @@ h5.subtitle {
 
 .section-padding {
   padding: 90px 0px;
+  background-color: #d6d6d6;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .section-heading {
@@ -305,7 +313,7 @@ h5.subtitle {
 }
 
 .bg-feature {
-  background-color: black;
+  background-color: rgba(42, 73, 199, 0.745);
 }
 
 .bg-primary {
@@ -429,7 +437,7 @@ h5.subtitle {
 }
 
 .trans-navigation {
-  background: black;
+  background: #0f1139b8;
   opacity: 0.8;
 }
 
@@ -591,19 +599,19 @@ h5.subtitle {
 }
 
 .banner-1 {
-  background: url("../images/banner/bg-2.jpg");
+  background: url("../images/gym/Banner.jpg");
   background-size: cover;
   position: relative;
 }
 
 .banner-2 {
-  background: url("../images/banner/slider-3.jpg");
+  background: url("../images/gym/Banner.jpg");
   background-size: cover;
   position: relative;
 }
 
 .banner-3 {
-  background: url("../images/banner/banner-bg-version3.jpg");
+  background: url("../images/gym/Banner.jpg");
   background-size: cover;
   position: relative;
 }
@@ -622,7 +630,22 @@ INner Pages
 }
 
 .page-banner-area {
-  background: url("../images/banner/banner-bg-version3.jpg") no-repeat 50% 50%;
+  background: url("../images/gym/gym1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.page-banner-area-2 {
+  background: url("../images/gym/gym2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.page-banner-area-3 {
+  background: url("../images/gym/gym3.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.page-banner-area-4 {
+  background: url("../images/gym/gym4.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -870,7 +893,6 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: black;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -1447,7 +1469,7 @@ BLOG SINGLE
     padding: 10px 0px;
   }
   .trans-navigation {
-    background: #232323;
+    background: #271a8b;
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
@@ -1528,7 +1550,7 @@ BLOG SINGLE
     padding: 10px 0px;
   }
   .trans-navigation {
-    background: #232323;
+    background: #341f7f;
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
@@ -1625,7 +1647,7 @@ BLOG SINGLE
     padding: 10px 0px;
   }
   .trans-navigation {
-    background: #232323;
+    background: #15146c;
     padding: 20px 15px;
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
