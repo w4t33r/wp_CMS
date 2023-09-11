@@ -16,6 +16,15 @@ if (!function_exists('barber_setup')) {
                 'unlink-homepage-logo' => false,
             ]);
         //Dynamic title tag for header
+        add_theme_support('html5', array(
+            'comment-list',
+            'comment-form',
+            'search-form',
+            'gallery',
+            'caption',
+            'script',
+            'style',
+        ));
         add_theme_support('title-tag');
         add_theme_support('post-thumbnails');
     }
