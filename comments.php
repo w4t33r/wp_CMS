@@ -32,13 +32,13 @@ if ( post_password_required() ) {
 
         <?php the_comments_navigation(); ?>
 
-        <ol class="comment-list">
+        <ol class="comment-list p-0">
             <?php
             wp_list_comments(
                 array(
-                    'walker'      => null,
+                    'walker'      => new Bootstrap_Walker_Comment(),
                     'max_depth' => '2',
-                    'avatar_size' => 20,
+                    'avatar_size' => 120,
                     'style'       => 'ol',
                     'type' => 'all',
                     'reply_text' => __('Reply <i class="fa fa-reply"></i>'),
