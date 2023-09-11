@@ -62,7 +62,49 @@ if ( post_password_required() ) {
 
     endif; // Check for have_comments().
 
-    comment_form();
+    $defaults = [
+        'fields'               => [
+            'author' => '<div class="col-lg-6"">
+			<input id="author" name="author" class="form-control" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" placeholder="Name" />
+		</div>',
+            'email'  => '<div class="col-lg-6">
+			<input id="email" name="email"  class="form-control"  type="email" value=" ' . esc_attr(  $commenter['comment_author_email'] ) . '" placeholder="email" size="30" aria-describedby="email-notes" />
+		</div>',
+            ],
+        'comment_field'        => '<div class="comment-form-comment mb-3">
+		<textarea id="comment" class="form-control" name="comment" cols="45" rows="8"  aria-required="true" required="required" placeholder="Comment"></textarea>
+	</div>',
+        'must_log_in'          => '<p class="must-log-in">' .
+            sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post->ID ) ) ) ) . '
+	 </p>',
+        'logged_in_as'         => '<p class="logged-in-as">' .
+            sprintf( __( '<a href="%1$s" aria-label="Logged in as %2$s. Edit your profile.">Logged in as %2$s</a>. <a href="%3$s">Log out?</a>' ), get_edit_user_link(), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post->ID ) ) ) ) . '
+	 </p>',
+        'comment_notes_before' => '<p class="comment-notes">
+		<span id="email-notes">' . __( 'Your email address will not be published.' ) . '</span>'.
+             '
+	</p>',
+        'comment_notes_after'  => '',
+        'id_form'              => 'commentform',
+        'id_submit'            => 'submit',
+        'class_container'      => 'comment-respond',
+        'class_form'           => 'comment-form',
+        'class_submit'         => 'btn btn-hero btn-circled',
+        'name_submit'          => 'submit',
+        'title_reply'          => __( 'Leave a Comment' ),
+        'title_reply_to'       => __( 'Leave a Reply to %s' ),
+        'title_reply_before'   => '<h3 id="reply-title" class="comment-reply-title">',
+        'title_reply_after'    => '</h3>',
+        'cancel_reply_before'  => ' <small>',
+        'cancel_reply_after'   => '</small>',
+        'cancel_reply_link'    => __( 'Cancel reply' ),
+        'label_submit'         => __( 'Post Comment' ),
+        'submit_button'        => '<button name="%1$s" type="submit" id="%2$s" class="%3$s"/>%4$s</button>',
+        'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
+        'format'               => 'html5',
+    ];
+
+    comment_form( $defaults );
     ?>
 
 </div><!-- #comments -->
@@ -71,46 +113,7 @@ if ( post_password_required() ) {
 
 
 
-<div class="comments my-4">
-    <h3 class="mb-5">Комментарии:</h3>
-
-    <div class="media mb-4">
-        <img src="images/blog/2.jpg" alt="" class="img-fluid d-flex mr-4 rounded">
-        <div class="media-body">
-            <h5>Антон Колесников</h5>
-            <span class="text-muted">20 января 2020</span>
-            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                laborum dolores quidem ea optio fuga nesciunt tempora, in tenetur iusto!</p>
-
-            <a href="#" class="reply">Ответить <i class="fa fa-reply"></i></a>
-
-            <div class="media mt-5">
-                <img src="images/blog/2.jpg" alt="" class="img-fluid d-flex mr-4 rounded">
-                <div class="media-body">
-                    <h5>Егор Савицкий</h5>
-                    <span class="text-muted">20 января 2020</span>
-                    <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Nisi laborum dolores quidem ea optio fuga nesciunt tempora, in tenetur
-                        iusto!</p>
-
-                    <a href="#" class="reply">Ответить <i class="fa fa-reply"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="media mb-4">
-        <img src="images/blog/2.jpg" alt="" class="img-fluid d-flex mr-4 rounded">
-        <div class="media-body">
-            <h5>Валентин Крашков</h5>
-            <span class="text-muted">14 февраля 2020</span>
-            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-                laborum dolores quidem ea optio fuga nesciunt tempora, in tenetur iusto!</p>
-
-            <a href="#" class="reply">Ответить <i class="fa fa-reply"></i></a>
-        </div>
-    </div>
-</div>
-<div class="mt-5 mb-3">
+    <!--<div class="mt-5 mb-3">
     <h3 class="mt-5 mb-2">Оставьте комментарий</h3>
     <p class="mb-4">Ваш E-mail защищен от спама</p>
     <form action="#" class="row">
@@ -136,4 +139,4 @@ if ( post_password_required() ) {
             <a href="#" class="btn btn-hero btn-circled">Оставить комментарий</a>
         </div>
     </form>
-</div>
+</div> -->
