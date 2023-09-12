@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <!-- Asside <div class="col-lg-4">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="sidebar-widget search">
@@ -98,7 +98,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     </div>

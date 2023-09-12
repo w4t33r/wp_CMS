@@ -15,7 +15,7 @@
     <a href="#" class="h4 "><?php the_title(); ?></a>
      <?php the_content(); ?>
     <div class="my-4">
-        <h5 class="d-inline-block mr-3">Поделитесь:</h5>
+        <h5 class="d-inline-block mr-3">Share:</h5>
         <ul class="list-inline d-inline-block">
             <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
